@@ -1,0 +1,26 @@
+.sub-image:hover {
+    cursor: pointer;
+}
+
+.image-container {
+    display: flex;
+    width: 40%;
+
+    margin: 0 auto;
+}
+
+.sub-images{
+    display: flex; 
+    flex-direction: column
+}
+
+.sub-image{
+    width: 71px; height: 30%
+}
+
+.main-image{
+    width: 434px; 
+    height: 100%; 
+    margin-left: 25px; 
+    border: 1px solid grey;
+}
